@@ -218,6 +218,10 @@ while not done:
         show_gameover_screen()
         game_over = False
         
+        score = 0
+        score1 = 0
+        shield = 0
+
         all_sprites = pygame.sprite.Group()
         enemy = pygame.sprite.Group()
         bullets = pygame.sprite.Group()
